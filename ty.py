@@ -15,7 +15,7 @@ from time import sleep
 
 from selenium.webdriver.chrome.options import Options
 options = webdriver.ChromeOptions()
-options.headless = False
+options.headless = True
 driver = webdriver.Chrome(executable_path="chromedriver.exe", options=options)
 driver.maximize_window()
 
